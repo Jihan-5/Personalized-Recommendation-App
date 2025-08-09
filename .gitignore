@@ -7,3 +7,10 @@ node_modules
 .env
 .env.local
 .env.*
+.next
+apps/web/.next
+node_modules
+out
+dist
+.vercel
+.env*
