@@ -1,7 +1,9 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import { Providers } from "./providers"; // This import is now correct
-import "./../globals.css";
+// apps/web/app/layout.tsx
+import "./globals.css"; // <- not "./../globals.css"
+
 import Link from "next/link";
 
 const inter = Inter({ subsets: ["latin"] });
